@@ -1,6 +1,6 @@
 Start:
-  pip3 install -r requirements.txt
-  python3 -m letsrevoke
+  1. pip3 install -r requirements.txt
+  2. python3 -m letsrevoke
 
 Access:
-  http://localhost:8080
+  1. http://localhost:8080
