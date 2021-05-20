@@ -8,7 +8,7 @@ from flask import Flask, request, render_template
 LETSWIFI_DB = 'letswifi-dev.sqlite'
 
 
-def db_read_ca(filename='letswifi-dev.sqlite'):
+def db_read_ca(filename=LETSWIFI_DB):
     ca = {}
     with closing(sqlite3.connect(filename)) as connection:
         with closing(connection.cursor()) as cursor:
